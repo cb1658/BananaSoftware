@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class Tester {
 
+	static final String banana =     "\n"
+			+ "   //\\\n"
+			+ "   V  \\\n"
+			+ "    \\  \\_\n"
+			+ "     \\,'.`-.\n"
+			+ "      |\\ `. `.       \n"
+			+ "      ( \\  `. `-.                        _,.-:\\\n"
+			+ "       \\ \\   `.  `-._             __..--' ,-';/\n"
+			+ "        \\ `.   `-.   `-..___..---'   _.-' ,'/\n"
+			+ "         `. `    `-._        __..--'    ,'\n"
+			+ "           `.       `--..''   _.-'    ,'\n"
+			+ "             `-._        _.-'      .-'\n"
+			+ "                 `\"\"\"---\"\"\"\n";
 	static {
 		System.out.println("Loading JavaBanana Architecture... ");
 		
@@ -66,20 +79,7 @@ public class Tester {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("    _\n"
-				+ "   //\\\n"
-				+ "   V  \\\n"
-				+ "    \\  \\_\n"
-				+ "     \\,'.`-.\n"
-				+ "      |\\ `. `.       \n"
-				+ "      ( \\  `. `-.                        _,.-:\\\n"
-				+ "       \\ \\   `.  `-._             __..--' ,-';/\n"
-				+ "        \\ `.   `-.   `-..___..---'   _.-' ,'/\n"
-				+ "         `. `    `-._        __..--'    ,'\n"
-				+ "           `.       `--..''   _.-'    ,'\n"
-				+ "             `-._        _.-'      .-'\n"
-				+ "                 `\"\"\"---\"\"\"\n"
-				+ "");
+		System.out.println(banana);
 		
 		System.out.println("\n" + "JAVA BANANA SOFTWARE v1.0.0");
 	}
@@ -190,20 +190,7 @@ public class Tester {
 				try {
 					System.out.println(bb/dd);
 				}catch(ArithmeticException ae) {
-					System.err.println("    _\n"
-							+ "   //\\\n"
-							+ "   V  \\\n"
-							+ "    \\  \\_\n"
-							+ "     \\,'.`-.\n"
-							+ "      |\\ `. `.       \n"
-							+ "      ( \\  `. `-.                        _,.-:\\\n"
-							+ "       \\ \\   `.  `-._             __..--' ,-';/\n"
-							+ "        \\ `.   `-.   `-..___..---'   _.-' ,'/\n"
-							+ "         `. `    `-._        __..--'    ,'\n"
-							+ "           `.       `--..''   _.-'    ,'\n"
-							+ "             `-._        _.-'      .-'\n"
-							+ "                 `\"\"\"---\"\"\"\n"
-							+ "");
+					System.err.println(banana);
 				}
 				break;
 				
